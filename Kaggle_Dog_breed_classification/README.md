@@ -5,9 +5,9 @@ Dataset Link: [Competition_link](https://www.kaggle.com/c/dog-breed-identificati
 The classifier should only predict scores for these breeds : beagle, chihuahua, doberman,
 french_bulldog, golden_retriever, malamute, pug, saint_bernard, scottish_deerhound,
 tibetan_mastiff.
-● Any of these frameworks can be used : Tensorflow, Keras, Pytorch, Caffee.
-● The classifier should only be built using Resnet50 CNN architecture.
-● Evaluation metrics i.e Accuracy, Confusion Matrix, F1 Score, ROC-AUC Score shall be calculated
+1. Any of these frameworks can be used : Tensorflow, Keras, Pytorch, Caffee.
+2. The classifier should only be built using Resnet50 CNN architecture.
+3. Evaluation metrics i.e Accuracy, Confusion Matrix, F1 Score, ROC-AUC Score shall be calculated
 on test data
 
 
