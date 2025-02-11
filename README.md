@@ -2,7 +2,7 @@
 Repo with work related to computer vision learning and projects 
 
 * ### Self-learning
-1. PyTorch practice notebooks [here](URL) 
+1. PyTorch practice notebooks [here](https://github.com/irohitraj/Computer-Vision/tree/main/Pytorch) 
 
 * ### Competitions
 1. List of competitions that I took part in along with codes
