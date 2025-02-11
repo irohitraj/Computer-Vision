@@ -8,4 +8,4 @@ Repo with work related to computer vision learning and projects
 
 * Projects 
 - List of projects that i worked on
-- - [here](url) 
+  - [here](url) 
