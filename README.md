@@ -1,11 +1,11 @@
 # Computer-Vision
 Repo with work related to computer vision learning and projects 
-* Self-learning
+* ### Self-learning
 - PyTorch practice notebooks [here](URL) 
 
-* Competitions
+* ### Competitions
 - codes for competitions I took part in [here](URL) 
 
-* Projects 
+* ### Projects 
 - List of projects that i worked on
-  - [here](url) 
+  - Faster Rcnn fine tuning - [here](https://github.com/irohitraj/Computer-Vision/tree/main/Faster_RCNN) 
