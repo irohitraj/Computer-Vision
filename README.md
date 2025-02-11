@@ -6,7 +6,7 @@ Repo with work related to computer vision learning and projects
 
 * ### Competitions
 1. List of competitions that I took part in along with codes
-  - Kaggle dog breed classification - [here]([https://github.com/irohitraj/Computer-Vision/tree/main/Faster_RCNN](https://github.com/irohitraj/Computer-Vision/tree/main/Competitions/Kaggle_Dog_breed_classification)) 
+  - Kaggle dog breed classification - [here](https://github.com/irohitraj/Computer-Vision/tree/main/Competitions/Kaggle_Dog_breed_classification) 
 
 * ### Projects
 1. List of projects that i worked on
