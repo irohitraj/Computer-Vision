@@ -1,11 +1,13 @@
 # Computer-Vision
 Repo with work related to computer vision learning and projects 
+
 * ### Self-learning
-- PyTorch practice notebooks [here](URL) 
+1. PyTorch practice notebooks [here](URL) 
 
 * ### Competitions
-- codes for competitions I took part in [here](URL) 
+1. List of competitions that I took part in along with codes
+  - Kaggle dog breed classification - [here]([https://github.com/irohitraj/Computer-Vision/tree/main/Faster_RCNN](https://github.com/irohitraj/Computer-Vision/tree/main/Competitions/Kaggle_Dog_breed_classification)) 
 
-* ### Projects 
-- List of projects that i worked on
+* ### Projects
+1. List of projects that i worked on
   - Faster Rcnn fine tuning - [here](https://github.com/irohitraj/Computer-Vision/tree/main/Faster_RCNN) 
