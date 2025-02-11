@@ -1,8 +1,11 @@
 # Computer-Vision
-Self learning, Projects, Assignments
+Repo with work related to computer vision learning and projects 
+* Self-learning
+- PyTorch practice notebooks [here](URL) 
 
-Competitions: Have Competitions I have been part of 
+* Competitions
+- codes for competitions I took part in [here](URL) 
 
-Pytorch: Codes of Pytorch that I have been implementing for my learning
-
-Projects: Coming soon
+* Projects 
+- List of projects that i worked on
+- - [here](url) 
