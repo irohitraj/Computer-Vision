@@ -1,10 +1,4 @@
 # Intro to PyTorch
-1.Pytorch Basics Notebook: 
-2. Learning how to make simple Convolution networks
-3. Using LeNet to train a model on CIFAR dataset
-
-- Item 1
-- Item 2
-- Item 3
-  - Sub Item 1
-  - Sub Item 2
+- Pytorch Basics Notebook: [here](https://github.com/irohitraj/Computer-Vision/blob/main/Pytorch/CNN_pytorch_basics.ipynb). It contains
+  - Learning how to make simple Convolution network and multi Layer CNN
+  - Using LeNet to train a model on the CIFAR dataset
