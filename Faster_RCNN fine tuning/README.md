@@ -1,6 +1,10 @@
 # Fine tuning Faster RCNN
 This repo contains the code for fine-tuning Faster RCnn on your custom dataset. You can use any of the jupyter notebook you want to do this task.
-1. [Notebook_1]([https://github.com/irohitraj/Computer-Vision/blob/main/Faster_RCNN%20fine%20tuning/Supervised%20Fine-tuning%20using%20class.ipynb]) Notebook contains detailed commented code using class
+
+You can view the Jupyter notebook [here](https://github.com/username/repository-name/blob/main/notebook.ipynb).
+
+
+1. [Notebook_1](https://github.com/irohitraj/Computer-Vision/blob/main/Faster_RCNN%20fine%20tuning/Supervised%20Fine-tuning%20using%20class.ipynb) Notebook contains detailed commented code using class
 2. Fine-tuning using just functions. Basic structure while learning
 
 
