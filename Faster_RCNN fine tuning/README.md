@@ -23,3 +23,4 @@ This repo contains the code for fine-tuning Faster RCnn on your custom dataset. 
 ### References:
   1. ### Youtube tutorial: https://youtu.be/xYd95gppJ-0
   2. ### Youtube tutorial: (https://www.youtube.com/watch?v=YA7BqiUTCwM&t=22s)
+  3. ### VGG Annotator (https://www.robots.ox.ac.uk/~vgg/software/via/)
