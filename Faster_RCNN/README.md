@@ -3,7 +3,7 @@ This repo contains the code for fine-tuning Faster RCnn on your custom dataset. 
 
 1. Notebook contains detailed commented code using class. You can find the notebook [here](https://github.com/irohitraj/Computer-Vision/blob/main/Faster_RCNN%20fine%20tuning/Supervised%20Fine-tuning%20using%20class.ipynb) 
 2. Fine-tuning using just functions. Followed Basic structure while learning. You can find the notebook [here](https://github.com/irohitraj/Computer-Vision/blob/main/Faster_RCNN%20fine%20tuning/fasterrcnn_sft_basic.ipynb)
-
+3. Notebook with training and evaluation alongwith custom mAP as well as cocoeval's mAP are also present here. [] runs even when we have some images missing in the data whereas they are present in the annotations
 
 ### Dataset:
   1. Dataset has been generated manually using VGG annotator present in the zip file
