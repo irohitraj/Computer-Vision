@@ -12,4 +12,4 @@ Repo with work related to computer vision learning and projects
 1. List of projects that i worked on
   - Faster Rcnn fine tuning - [here](https://github.com/irohitraj/Computer-Vision/tree/main/Faster_RCNN)
 
-  - U-Net Segmentation on Medical Images- [here](https://github.com/irohitraj/Computer-Vision/tree/main/)
+  - U-Net Segmentation on Medical Images- [here](https://github.com/irohitraj/Computer-Vision/tree/main/U-Net_Segmentation)
