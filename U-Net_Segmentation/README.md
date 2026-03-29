@@ -64,9 +64,7 @@ Experiments: **2 losses × 2 optimizers = 4 runs**, with manual seeding for repr
 - With **SGD**, BCE underperforms Dice by a large margin on validation (0.59 vs. 0.64); BCE masks are **more fragmented** along thin vessels.
 - With **Adam**, BCE reaches higher **train** mIoU but slightly **lower validation** mIoU than Dice; qualitatively, **BCE shows more false-positive mask** compared to Dice in the report’s examples.
 
-### Visual results
-
-Exported from the project PDF; source files in [`visualizations/readme_figures/`](visualizations/readme_figures/).
+### Visuals
 
 **1. Dataset sample** (input angiogram, combined binary mask, overlay)
 
