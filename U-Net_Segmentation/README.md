@@ -1,14 +1,10 @@
 # U-Net segmentation of coronary vessel trees (ARCADE)
 
-Semantic segmentation of the **coronary vessel tree** from X-ray coronary angiography (XCA) using a **U-Net** trained on the **ARCADE** dataset. This repository accompanies the project report [`u1527246 - Project Report.pdf`](u1527246%20-%20Project%20Report.pdf).
-
-## Motivation
-
-Coronary artery disease (CAD) is a major cause of death and disability worldwide. XCA is a standard way to visualize coronary arteries; automating vessel-tree segmentation can support diagnosis and workflow. This project treats segmentation as **binary mask prediction** (foreground vessel tree vs. background), merging all annotated regions into a single mask rather than 26-way regional labels.
+U-Net **binary segmentation** of the coronary vessel tree on X-ray coronary angiography (XCA), trained on **ARCADE**. Project report: [`u1527246 - Project Report.pdf`](u1527246%20-%20Project%20Report.pdf).
 
 ## Problem statement
 
-Train a deep learning model that segments the **full coronary vessel tree** in XCA images as a binary mask, improving overlap with ground truth and producing visually coherent vessel predictions under class imbalance (thin vessels vs. large background).
+This work segments the full coronary vessel tree in XCA images as a **single foreground mask** by merging all ARCADE annotations into one binary label, addressing heavy foreground/background imbalance while supporting CAD-related imaging analysis. A **U-Net** is trained with **BCE** and/or **Dice** loss under **SGD** and **Adam**, and performance is reported with **mean IoU** (see Results).
 
 ## Dataset
 
@@ -70,45 +66,19 @@ Experiments: **2 losses × 2 optimizers = 4 runs**, with manual seeding for repr
 
 ### Visual results
 
-Figures below are **exported from** [`u1527246 - Project Report.pdf`](u1527246%20-%20Project%20Report.pdf) (same content as Figures 1.x–3.x in the report). Full-resolution copies live in [`visualizations/readme_figures/`](visualizations/readme_figures/).
+Exported from the project PDF; source files in [`visualizations/readme_figures/`](visualizations/readme_figures/).
 
-**Dataset sample** (input angiogram, combined binary mask, overlay)
+**1. Dataset sample** (input angiogram, combined binary mask, overlay)
 
 ![ARCADE sample: image, mask, and overlay](visualizations/readme_figures/page1_img2.jpeg)
 
-**SGD + BCE** — training loss and mean IoU vs. epoch (report Fig. 2.1)
-
-![SGD + BCE: loss and mIoU curves](visualizations/readme_figures/page3_img2.png)
-
-**SGD + BCE** — example prediction (report Fig. 2.2)
-
-![SGD + BCE: sample prediction](visualizations/readme_figures/page4_img2.jpeg)
-
-**SGD + Dice** — Dice loss, Dice coefficient, mean IoU (report Fig. 2.3)
+**2. SGD + Dice** — Dice loss, Dice coefficient, mean IoU (Fig. 2.3)
 
 ![SGD + Dice: training metrics](visualizations/readme_figures/page4_img3.png)
 
-**SGD + Dice** — example prediction (report Fig. 2.4)
-
-![SGD + Dice: sample prediction](visualizations/readme_figures/page4_img4.jpeg)
-
-**Adam + BCE** — loss and mean IoU (report Fig. 3.1)
-
-![Adam + BCE: loss and mIoU curves](visualizations/readme_figures/page4_img5.png)
-
-**Adam + BCE** — example prediction (report Fig. 3.2)
-
-![Adam + BCE: sample prediction](visualizations/readme_figures/page5_img2.jpeg)
-
-**Adam + Dice** — Dice loss, Dice coefficient, mean IoU (report Fig. 3.3)
+**3. Adam + Dice** — Dice loss, Dice coefficient, mean IoU (Fig. 3.3)
 
 ![Adam + Dice: training metrics](visualizations/readme_figures/page5_img3.png)
-
-**Adam + Dice** — example prediction (report Fig. 3.4)
-
-![Adam + Dice: sample prediction](visualizations/readme_figures/page5_img4.jpeg)
-
-You can regenerate plots from the training notebooks; any newly saved runs can go under `visualizations/` alongside these exports.
 
 ## Repository layout
 
@@ -128,13 +98,6 @@ You can regenerate plots from the training notebooks; any newly saved runs can g
 Place your **ARCADE** train/val images and COCO JSON where the notebooks expect them (paths are set inside each notebook).
 
 **Dependencies (from code):** Python 3, PyTorch, torchvision, Pillow, NumPy, Matplotlib, **pycocotools**.
-
-## Future work (from report)
-
-- Multiclass segmentation (e.g., vessel types / regions) for richer clinical cues.
-- Stronger **data augmentation** and ablation on mIoU.
-- Other segmentation backbones vs. this U-Net.
-- Train on **single-channel grayscale** inputs to reduce redundancy and compute.
 
 ## References
 
